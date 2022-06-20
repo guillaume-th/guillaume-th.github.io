@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Childream</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="logo.png" alt="" />
+    </header>
+    <main>
+      <div class="recette">
+        <div class="AjoutRecette">
+          <h2>Ajouter une recette</h2>
+          <p>formule :</p>
+          <input id="ingredient" type="text" />
+          <p>lien de l'image du résultat :</p>
+          <input id="UrlImage" type="text" /> <br />
+          <input class="submit" type="submit" value="ajouter" />
+        </div>
+        <div id="ListeRecette">
+          <h2>Recette</h2>
+        </div>
+      </div>
+      <div class="VotreRecette">
+        <h2>- Preparer une recette -</h2>
+        <p>cliquez sur les ingrédients à ajouter</p>
+        <span>🥕</span><span>🌽</span><span>🌶</span><span>🥒</span>
+        <span>🥬</span><span>🥦</span><span>🍄</span><span>🥜</span
+        ><span>🌰</span> <span>🍞</span><span>🥖</span><span>🥩</span
+        ><span>🍗</span><span>🥓</span> <span>🥚</span><span>🧂</span
+        ><span>🍚</span><span>🦐</span><span>🦞</span> <span>🦀</span
+        ><span>🍫</span><span>🥛</span><br />
+        <div class="ChoixIngredient">
+          <div class="choix"></div>
+          <div class="choix"></div>
+          <div class="choix"></div>
+          <input class="verif" type="button" value="Preparer" />
+        </div>
+        <div class="CountIngredient">
+          <div class="count"></div>
+          <div class="count"></div>
+          <div class="count"></div>
+        </div>
+      </div>
+      <div id="result">
+
+      </div>
+    </main>
+  </body>
+</html>
