@@ -1,0 +1,142 @@
+@import "https://fonts.googleapis.com/css?family=Roboto+Mono:100";
+body {
+  scroll-snap-type: x mandatory;
+  font-family: "Roboto Mono", monospace;
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.cardFlex {
+  text-align: center;
+  min-width: 100%;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #fafafa;
+  background: #212121;
+}
+.flexEductation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.flexProject {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.cardGrey {
+  min-width: 100%;
+  min-height: 100vh;
+  background: lightgrey;
+}
+.cardBlack {
+  min-width: 100%;
+  min-height: 100vh;
+  color: #fafafa;
+  background: #212121;
+}
+.flexCenter {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.imgProfil {
+  margin: 3%;
+  border-radius: 50%;
+  width: 10%;
+  height: auto;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text {
+  font-weight: 100;
+  font-size: 28px;
+  color: #fafafa;
+}
+.jobAlternace {
+  color: #757575;
+}
+.list {
+  list-style: none;
+}
+.scroller {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+.scroller section {
+  scroll-snap-align: start;
+}
+.cardProject {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.responsiveImage {
+  margin: 2%;
+  border-radius: 10%;
+  width: 20%;
+  height: auto;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.31);
+}
+.lightbox {
+  background-color: lightgrey;
+  min-width: 40%;
+  min-height: 40vh;
+  color: #757575;
+  border: #757575 solid 2px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+}
+.textBoxProject {
+  padding: 2%;
+  max-width: 40%;
+  background-color: #212121;
+  color: lightgray;
+}
+@media (max-width: 757px) {
+  .imgProfil {
+    width: 25%;
+    height: auto;
+  }
+  .cardProject {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .responsiveImage {
+    margin: 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 10%;
+    width: 40%;
+    height: auto;
+  }
+  .flexCenter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .align-text {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
